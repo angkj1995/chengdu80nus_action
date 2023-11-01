@@ -50,7 +50,7 @@ st.header('2. Risk Index and Influences')
 cola, colb = st.columns(2)
 
 with cola:
-    st.metric(label="Overall Risk Score", value="-0.13", delta="0.05 w-o-w", delta_color='inverse')
+    st.metric(label="Overall Risk Score", value="-0.13", delta="0.05 w-o-w")
 with colb:
     risk_ts = pd.read_csv(debug+'Risk_timeseries.csv')
     risk_ts['Date'] = pd.to_datetime(risk_ts['Date'], format='%Y/%m/%d')
