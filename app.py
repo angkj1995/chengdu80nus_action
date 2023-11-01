@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 # Set Streamlit page configuration to a wide layout
 st.set_page_config(layout="wide")
 # Define a path for reading data
-debug = 'C:/users/kj/Desktop/cd-action/data/'
+debug = 'data/'
 
 
 # Title and introductory text for the home page
